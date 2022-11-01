@@ -1,0 +1,4 @@
+Mean Runtime Report (sec.)  ,  ,  ,  ,  , 
+Kernel            , Base_Seq , Base_Seq , Lambda_Seq , RAJA_Seq , RAJA_Seq
+Kernel            , default  , library  , default    , default  , library 
+Algorithm_MEMSET  , 0.040583 , 0.023762 ,   0.041104 , 0.041285 , 0.022261

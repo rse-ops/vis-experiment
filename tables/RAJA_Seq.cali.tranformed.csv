@@ -1,0 +1,67 @@
+path,annotation,dim1,dim2,value
+UNKNOWN,,,,regionprofile
+UNKNOWN,,Min time/rank,,0.020723
+UNKNOWN,,Max time/rank,,0.020723
+UNKNOWN,,Avg time/rank,,0.020723
+UNKNOWN,,Total time,,0.020723
+UNKNOWN,,Bytes/Rep,,8000008.000000
+UNKNOWN,,Flops/Rep,,0.000000
+UNKNOWN,,Iterations/Rep,,1000000.000000
+UNKNOWN,,Kernels/Rep,,1.000000
+UNKNOWN,,ProblemSize,,1000000.000000
+UNKNOWN,,Reps,,100.000000
+RAJA_Seq,RAJA_Seq,,,regionprofile
+RAJA_Seq,RAJA_Seq,Min time/rank,,0.063736
+RAJA_Seq,RAJA_Seq,Max time/rank,,0.063736
+RAJA_Seq,RAJA_Seq,Avg time/rank,,0.063736
+RAJA_Seq,RAJA_Seq,Total time,,0.063736
+RAJA_Seq,RAJA_Seq,Bytes/Rep,,8000008.000000
+RAJA_Seq,RAJA_Seq,Flops/Rep,,0.000000
+RAJA_Seq,RAJA_Seq,Iterations/Rep,,1000000.000000
+RAJA_Seq,RAJA_Seq,Kernels/Rep,,1.000000
+RAJA_Seq,RAJA_Seq,ProblemSize,,1000000.000000
+RAJA_Seq,RAJA_Seq,Reps,,100.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,,,regionprofile
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Min time/rank,,0.063696
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Max time/rank,,0.063696
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Avg time/rank,,0.063696
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Total time,,0.063696
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Bytes/Rep,,8000008.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Flops/Rep,,0.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Iterations/Rep,,1000000.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Kernels/Rep,,1.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,ProblemSize,,1000000.000000
+RAJA_Seq/Algorithm,RAJA_Seq|Algorithm,Reps,,100.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,,,regionprofile
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Min time/rank,,0.063674
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Max time/rank,,0.063674
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Avg time/rank,,0.063674
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Total time,,0.063674
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Bytes/Rep,,8000008.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Flops/Rep,,0.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Iterations/Rep,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Kernels/Rep,,1.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,ProblemSize,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET,RAJA_Seq|Algorithm|Algorithm_MEMSET,Reps,,100.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,,,regionprofile
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Min time/rank,,0.022297
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Max time/rank,,0.022297
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Avg time/rank,,0.022297
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Total time,,0.022297
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Bytes/Rep,,8000008.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Flops/Rep,,0.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Iterations/Rep,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Kernels/Rep,,1.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,ProblemSize,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Reps,,100.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,,,regionprofile
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Min time/rank,,0.041330
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Max time/rank,,0.041330
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Avg time/rank,,0.041330
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Total time,,0.041330
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Bytes/Rep,,8000008.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Flops/Rep,,0.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Iterations/Rep,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Kernels/Rep,,1.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,ProblemSize,,1000000.000000
+RAJA_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,RAJA_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Reps,,100.000000

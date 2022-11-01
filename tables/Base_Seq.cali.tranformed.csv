@@ -1,0 +1,67 @@
+path,annotation,dim1,dim2,value
+UNKNOWN,,,,regionprofile
+UNKNOWN,,Min time/rank,,0.020674
+UNKNOWN,,Max time/rank,,0.020674
+UNKNOWN,,Avg time/rank,,0.020674
+UNKNOWN,,Total time,,0.020674
+UNKNOWN,,Bytes/Rep,,8000008.000000
+UNKNOWN,,Flops/Rep,,0.000000
+UNKNOWN,,Iterations/Rep,,1000000.000000
+UNKNOWN,,Kernels/Rep,,1.000000
+UNKNOWN,,ProblemSize,,1000000.000000
+UNKNOWN,,Reps,,100.000000
+Base_Seq,Base_Seq,,,regionprofile
+Base_Seq,Base_Seq,Min time/rank,,0.064581
+Base_Seq,Base_Seq,Max time/rank,,0.064581
+Base_Seq,Base_Seq,Avg time/rank,,0.064581
+Base_Seq,Base_Seq,Total time,,0.064581
+Base_Seq,Base_Seq,Bytes/Rep,,8000008.000000
+Base_Seq,Base_Seq,Flops/Rep,,0.000000
+Base_Seq,Base_Seq,Iterations/Rep,,1000000.000000
+Base_Seq,Base_Seq,Kernels/Rep,,1.000000
+Base_Seq,Base_Seq,ProblemSize,,1000000.000000
+Base_Seq,Base_Seq,Reps,,100.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,,,regionprofile
+Base_Seq/Algorithm,Base_Seq|Algorithm,Min time/rank,,0.064510
+Base_Seq/Algorithm,Base_Seq|Algorithm,Max time/rank,,0.064510
+Base_Seq/Algorithm,Base_Seq|Algorithm,Avg time/rank,,0.064510
+Base_Seq/Algorithm,Base_Seq|Algorithm,Total time,,0.064510
+Base_Seq/Algorithm,Base_Seq|Algorithm,Bytes/Rep,,8000008.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,Flops/Rep,,0.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,Iterations/Rep,,1000000.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,Kernels/Rep,,1.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,ProblemSize,,1000000.000000
+Base_Seq/Algorithm,Base_Seq|Algorithm,Reps,,100.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,,,regionprofile
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Min time/rank,,0.064487
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Max time/rank,,0.064487
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Avg time/rank,,0.064487
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Total time,,0.064487
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Bytes/Rep,,8000008.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Flops/Rep,,0.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Iterations/Rep,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Kernels/Rep,,1.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,ProblemSize,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET,Base_Seq|Algorithm|Algorithm_MEMSET,Reps,,100.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,,,regionprofile
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Min time/rank,,0.023809
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Max time/rank,,0.023809
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Avg time/rank,,0.023809
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Total time,,0.023809
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Bytes/Rep,,8000008.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Flops/Rep,,0.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Iterations/Rep,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Kernels/Rep,,1.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,ProblemSize,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.library,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.library,Reps,,100.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,,,regionprofile
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Min time/rank,,0.040624
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Max time/rank,,0.040624
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Avg time/rank,,0.040624
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Total time,,0.040624
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Bytes/Rep,,8000008.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Flops/Rep,,0.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Iterations/Rep,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Kernels/Rep,,1.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,ProblemSize,,1000000.000000
+Base_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Base_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Reps,,100.000000

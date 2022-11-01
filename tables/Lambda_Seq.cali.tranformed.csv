@@ -1,0 +1,56 @@
+path,annotation,dim1,dim2,value
+UNKNOWN,,,,regionprofile
+UNKNOWN,,Min time/rank,,0.000427
+UNKNOWN,,Max time/rank,,0.000427
+UNKNOWN,,Avg time/rank,,0.000427
+UNKNOWN,,Total time,,0.000427
+UNKNOWN,,Bytes/Rep,,8000008.000000
+UNKNOWN,,Flops/Rep,,0.000000
+UNKNOWN,,Iterations/Rep,,1000000.000000
+UNKNOWN,,Kernels/Rep,,1.000000
+UNKNOWN,,ProblemSize,,1000000.000000
+UNKNOWN,,Reps,,100.000000
+Lambda_Seq,Lambda_Seq,,,regionprofile
+Lambda_Seq,Lambda_Seq,Min time/rank,,0.041211
+Lambda_Seq,Lambda_Seq,Max time/rank,,0.041211
+Lambda_Seq,Lambda_Seq,Avg time/rank,,0.041211
+Lambda_Seq,Lambda_Seq,Total time,,0.041211
+Lambda_Seq,Lambda_Seq,Bytes/Rep,,8000008.000000
+Lambda_Seq,Lambda_Seq,Flops/Rep,,0.000000
+Lambda_Seq,Lambda_Seq,Iterations/Rep,,1000000.000000
+Lambda_Seq,Lambda_Seq,Kernels/Rep,,1.000000
+Lambda_Seq,Lambda_Seq,ProblemSize,,1000000.000000
+Lambda_Seq,Lambda_Seq,Reps,,100.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,,,regionprofile
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Min time/rank,,0.041190
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Max time/rank,,0.041190
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Avg time/rank,,0.041190
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Total time,,0.041190
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Bytes/Rep,,8000008.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Flops/Rep,,0.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Iterations/Rep,,1000000.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Kernels/Rep,,1.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,ProblemSize,,1000000.000000
+Lambda_Seq/Algorithm,Lambda_Seq|Algorithm,Reps,,100.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,,,regionprofile
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Min time/rank,,0.041175
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Max time/rank,,0.041175
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Avg time/rank,,0.041175
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Total time,,0.041175
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Bytes/Rep,,8000008.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Flops/Rep,,0.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Iterations/Rep,,1000000.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Kernels/Rep,,1.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,ProblemSize,,1000000.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET,Lambda_Seq|Algorithm|Algorithm_MEMSET,Reps,,100.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,,,regionprofile
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Min time/rank,,0.041148
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Max time/rank,,0.041148
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Avg time/rank,,0.041148
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Total time,,0.041148
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Bytes/Rep,,8000008.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Flops/Rep,,0.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Iterations/Rep,,1000000.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Kernels/Rep,,1.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,ProblemSize,,1000000.000000
+Lambda_Seq/Algorithm/Algorithm_MEMSET/Algorithm_MEMSET.default,Lambda_Seq|Algorithm|Algorithm_MEMSET|Algorithm_MEMSET.default,Reps,,100.000000

@@ -1,0 +1,7 @@
+path,annotation,dim1,dim2,value
+RAJAPerf-speedup-Average.csv,,0,Kernel,Algorithm_MEMSET
+RAJAPerf-speedup-Average.csv,,0,default,0.586
+RAJAPerf-speedup-Average.csv,,0,library,1.0
+RAJAPerf-speedup-Average.csv,,0,default,0.578
+RAJAPerf-speedup-Average.csv,,0,default  .1,0.576
+RAJAPerf-speedup-Average.csv,,0,library,1.067

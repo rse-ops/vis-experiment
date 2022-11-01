@@ -1,0 +1,4 @@
+Mean Speedup Report (T_ref/T_var): ref var = Base_Seq  ,  ,  ,  ,  , 
+Kernel            , Base_Seq , Base_Seq , Lambda_Seq , RAJA_Seq , RAJA_Seq
+Kernel            , default  , library  , default    , default  , library 
+Algorithm_MEMSET  ,    0.586 ,    1.000 ,      0.578 ,    0.576 ,    1.067

@@ -1,0 +1,7 @@
+path,annotation,dim1,dim2,value
+RAJAPerf-timing-Average.csv,,0,Kernel,Algorithm_MEMSET
+RAJAPerf-timing-Average.csv,,0,default,0.040583
+RAJAPerf-timing-Average.csv,,0,library,0.023762
+RAJAPerf-timing-Average.csv,,0,default,0.041104
+RAJAPerf-timing-Average.csv,,0,default  .1,0.041285
+RAJAPerf-timing-Average.csv,,0,library,0.022261
