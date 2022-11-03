@@ -1,0 +1,80 @@
+{
+    "children": [
+        {
+            "name": "Base_Seq; ",
+            "value": 0.064581,
+            "children": [
+                {
+                    "name": "Base_Seq; Algorithm; ",
+                    "value": 0.06451,
+                    "children": [
+                        {
+                            "name": "Base_Seq; Algorithm; Algorithm_MEMSET; ",
+                            "value": 0.064487,
+                            "children": [
+                                {
+                                    "name": "Base_Seq; Algorithm; Algorithm_MEMSET; Algorithm_MEMSET.library; ",
+                                    "value": 0.023809
+                                },
+                                {
+                                    "name": "Base_Seq; Algorithm; Algorithm_MEMSET; Algorithm_MEMSET.default; ",
+                                    "value": 0.040624
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lambda_Seq; ",
+            "value": 0.041211,
+            "children": [
+                {
+                    "name": "Lambda_Seq; Algorithm; ",
+                    "value": 0.04119,
+                    "children": [
+                        {
+                            "name": "Lambda_Seq; Algorithm; Algorithm_MEMSET; ",
+                            "value": 0.041175,
+                            "children": [
+                                {
+                                    "name": "Lambda_Seq; Algorithm; Algorithm_MEMSET; Algorithm_MEMSET.default; ",
+                                    "value": 0.041148
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RAJA_Seq; ",
+            "value": 0.063736,
+            "children": [
+                {
+                    "name": "RAJA_Seq; Algorithm; ",
+                    "value": 0.063696,
+                    "children": [
+                        {
+                            "name": "RAJA_Seq; Algorithm; Algorithm_MEMSET; ",
+                            "value": 0.063674,
+                            "children": [
+                                {
+                                    "name": "RAJA_Seq; Algorithm; Algorithm_MEMSET; Algorithm_MEMSET.library; ",
+                                    "value": 0.022297
+                                },
+                                {
+                                    "name": "RAJA_Seq; Algorithm; Algorithm_MEMSET; Algorithm_MEMSET.default; ",
+                                    "value": 0.04133
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "root",
+    "value": 0.169528
+}

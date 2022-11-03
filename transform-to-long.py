@@ -18,29 +18,29 @@ def read_file(filename):
 
 
 def get_transformer(filename):
-    if filename.endswith("cali"):
+    if filename.endswith('cali'):
         return CaliperTransformer()
     return TabularTransformer()
-
 
 class BaseTransformer:
     def init_df(self):
         """
         Ensure we are using a common data frame structure.
-
+        
         This formats into a long data frame that has two generic dimensions.
         """
-        return pandas.DataFrame(columns=["path", "annotation", "dim1", "dim2", "value"])
+        return pandas.DataFrame(columns=['path', 'annotation', 'dim1', 'dim2', 'value'])
 
 
 class TabularTransformer(BaseTransformer):
+
     def get_separator(self, filename):
         """
         Ensure we read a file based on an extension we know
         """
         _, ext = os.path.splitext(filename)
         ext = ext.lower()
-        if ext not in [".tsv", ".csv"]:
+        if ext not in ['.tsv', '.csv']:
             sys.exit(f"Extension {ext} is not yet supported! Please open an issue.")
         if ext == ".csv":
             return ","
@@ -54,12 +54,10 @@ class TabularTransformer(BaseTransformer):
         df = self.init_df()
         sep = self.get_separator(filename)
         annotations = annotations or ""
-
-        records = pandas.read_csv(
-            filename, sep=sep, engine="python", skiprows=skip_rows, index_col=index_col
-        )
+               
+        records = pandas.read_csv(filename, sep=sep, engine="python", skiprows=skip_rows, index_col=index_col)
         # We hope file ending is known separator
-
+        
         idx = 0
         for row in records.iterrows():
             metric = row[0]
@@ -69,12 +67,13 @@ class TabularTransformer(BaseTransformer):
                     value = value.strip()
                 if not key and value in [None, ""]:
                     continue
-                df.loc[idx, :] = [filename, annotations, metric, key, value]
+                df.loc[idx, :] = [filename, annotations, metric, key, value] 
                 idx += 1
         return df
 
 
 class CaliperTransformer(BaseTransformer):
+
     def to_df(self, filename, **kwargs):
         """
         Transform caliper to pandas data frame.
@@ -85,21 +84,20 @@ class CaliperTransformer(BaseTransformer):
 
         idx = 0
         for rec in reader.records:
-            path = rec.get("path", "UNKNOWN")
-            labels = rec.get("annotation", "")
+            path = rec.get('path', 'UNKNOWN')
+            labels = rec.get('annotation', '')
             if isinstance(path, list):
-                path = os.sep.join(path)
+               path = os.sep.join(path)
             if isinstance(labels, list):
-                labels = "|".join(labels)
+               labels = "|".join(labels)
             for key, value in rec.items():
-                if key in ["path", "annotation"]:
+                if key in ['path', 'annotation']:
                     continue
-                key = reader.attribute(key).get("attribute.alias")
+                key = reader.attribute(key).get("attribute.alias")                
                 df.loc[idx, :] = [path, labels, key, None, value]
                 idx += 1
         return df
-
-
+      
 def get_parser():
     parser = argparse.ArgumentParser(
         description="Caliper To Pandas Data Frame Transformer",
@@ -109,15 +107,10 @@ def get_parser():
         "filename", help="input filename .cali (caliper file) or tabular to transform"
     )
     parser.add_argument(
-        "--outdir",
-        help="output directory for data frame",
-        default=os.path.join(os.getcwd(), "tables"),
+        "--outdir", help="output directory for data frame", default=os.path.join(os.getcwd(), "tables")
     )
     parser.add_argument(
-        "--skip-rows",
-        help="Number of rows to skip for tabular data",
-        default=0,
-        type=int,
+        "--skip-rows", help="Number of rows to skip for tabular data", default=0, type=int
     )
     parser.add_argument(
         "--annotations", help="pipe (|) separated list of annotations (no spaces)"
@@ -142,11 +135,8 @@ def main():
 
     kwargs = {"skip_rows": args.skip_rows, "annotations": args.annotations}
     df = t.to_df(args.filename, **kwargs)
-    outfile = "%s.tranformed.csv" % os.path.join(
-        args.outdir, os.path.basename(args.filename)
-    )
+    outfile = "%s.tranformed.csv" % os.path.join(args.outdir, os.path.basename(args.filename))
     df.to_csv(outfile, index=False)
-
 
 if __name__ == "__main__":
     main()

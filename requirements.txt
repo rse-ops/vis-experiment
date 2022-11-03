@@ -1,2 +1,4 @@
 caliper-reader
 pandas
+grafanalib
+llnl-hatchet
